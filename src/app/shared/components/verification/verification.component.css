@@ -1,0 +1,90 @@
+.row {
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+.verify_input {
+  /* margin: 0px 40px ; */
+  width: 95px;
+  height: 60px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  /* display: block;/ */
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-group .verify_span{
+  color: #000;
+margin-left: 10px;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+}
+
+.verifyBtn button {
+  border-radius: 15px;
+  background: #590808;
+  color: white;
+  /* width: 526px; */
+  height: 55px;
+  /* padding: 16px; */
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.2px;
+
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.verifyBtn a {
+  color: gray;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.verifyBtn a::after {
+  content: " Troubleshooting? Resend Code";
+  color: #590808;
+}
+
+.verifyBtn2 a::after {
+  content: " Create free account";
+  color: #590808;
+}
+
+
+
+@media (max-width: 750px) {
+  .verify_input {
+    /* margin: 0px 40px ; */
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    /* display: block;/ */
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .form-group .verify_span{
+    color: #000;
+  margin-left: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  }
+
+}

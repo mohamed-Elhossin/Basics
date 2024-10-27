@@ -1,0 +1,105 @@
+.left-side {
+  height: 110vh;
+  width: 100%;
+  background: var(--left_side, #590808);
+  overflow: auto;
+}
+.content {
+  padding: 150px 130px 0px;
+  box-sizing: border-box;
+}
+.left-side h2.title {
+  margin: 20px 0px;
+  color: white;
+  margin-bottom: 30px;
+  padding: 30px 0px;
+  /* Bold/60px */
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 66px; /* 110% */
+  letter-spacing: -2px;
+}
+
+.testimonial {
+  background-color: #5a0101;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.stars {
+  font-size: 1.2em;
+  color: #fbc02d; /* Gold color for stars */
+  margin-bottom: 15px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: white;
+}
+
+.author {
+  display: flex;
+  align-items: left;
+  justify-content: start;
+  gap: 10px;
+  color: white;
+}
+.author img {
+  width: 30px;
+  height: 30px;
+  /* text-align: left; */
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0 !important;
+}
+
+.role {
+  font-size: 0.8em;
+  color: #e0e0e0;
+}
+
+@media (max-width: 750px) {
+  .left-side {
+    height: 60vh;
+    width: 100%;
+  }
+  .content {
+    height: auto;
+    width: 100%;
+    background: var(--left_side, #590808);
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .left-side h2.title {
+    color: white;
+    font-size: 1em;
+    font-family: Poppins;
+    letter-spacing: 0px;
+
+    margin: 0px;
+    text-align: center;
+    padding: 0px 0px;
+    /* background-color: red; */
+    font-weight: bold;
+  }
+  .testimonial {
+    background-color: #5a0101;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}
