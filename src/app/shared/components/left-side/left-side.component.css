@@ -4,10 +4,12 @@
   background: var(--left_side, #590808);
   overflow: auto;
 }
+
 .content {
   padding: 150px 130px 0px;
   box-sizing: border-box;
 }
+
 .left-side h2.title {
   margin: 20px 0px;
   color: white;
@@ -18,7 +20,8 @@
   font-size: 60px;
   font-style: normal;
   font-weight: 600;
-  line-height: 66px; /* 110% */
+  line-height: 66px;
+  /* 110% */
   letter-spacing: -2px;
 }
 
@@ -30,7 +33,8 @@
 
 .stars {
   font-size: 1.2em;
-  color: #fbc02d; /* Gold color for stars */
+  color: #fbc02d;
+  /* Gold color for stars */
   margin-bottom: 15px;
 }
 
@@ -49,6 +53,7 @@
   gap: 10px;
   color: white;
 }
+
 .author img {
   width: 30px;
   height: 30px;
@@ -71,12 +76,47 @@
   font-size: 0.8em;
   color: #e0e0e0;
 }
+@media (max-width: 970px) {
+  .left-side {
+    height: 90vh;
+    width: 100%;
+  }
+
+  .content {
+    height: auto;
+    width: 100%;
+    background: var(--left_side, #590808);
+    overflow: auto;
+    padding: 200px 15px 0px;
+    box-sizing: border-box;
+  }
+
+  .left-side h2.title {
+    color: white;
+    font-size: 2em;
+    font-family: Poppins;
+    letter-spacing: 0px;
+
+    margin: 0px;
+    text-align: center;
+    padding: 0px 0px;
+    /* background-color: red; */
+    font-weight: bold;
+  }
+
+  .testimonial {
+    background-color: #5a0101;
+    padding: 10px;
+
+  }
+}
 
 @media (max-width: 750px) {
   .left-side {
     height: 60vh;
     width: 100%;
   }
+
   .content {
     height: auto;
     width: 100%;
@@ -85,6 +125,7 @@
     padding: 20px;
     box-sizing: border-box;
   }
+
   .left-side h2.title {
     color: white;
     font-size: 1em;
@@ -97,6 +138,7 @@
     /* background-color: red; */
     font-weight: bold;
   }
+
   .testimonial {
     background-color: #5a0101;
     padding: 10px;

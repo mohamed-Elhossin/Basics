@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="content">
+    <div class="logo">
+      <img class="img-fluid" src="img/Asset1.png" alt="" />
+    </div>
+    <div class="title">
+      <h1>Create new Account</h1>
+    </div>
+    <div class="form">
+      <form>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Full Name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Email" />
+        </div>
+        <div class="form-group">
+          <label for="Country">Country</label>
+          <select type="text" class="form-control" id="Country">
+            <option disabled selected>Select Your Country</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Egypt">Egypt</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <div class="phone-input-container">
+            <select readonly class="country-code">
+              <option value="+20">+20</option>
+              <option value="+966">+966</option>
+              <option value="+971">+971</option>
+              <option value="+974">+974</option>
+            </select>
+            <input type="tel" class="form-control" id="phone" placeholder="phone" />
+          </div>
+        </div>
+        <div class="form-group form-check">
+          <input class="form-check-input" type="checkbox" value="" id="remember" />
+          <label class="form-check-label remember" for="remember">
+            Remember me
+          </label>
+          <a routerLink="/forgot-password" class="fb float-end mt-1">Forgot password?</a>
+        </div>
+        <div class="loginBtn d-grid mt-5">
+          <button (click)="clicked()" class="btn">Register</button>
+         </div>
+      </form>
+    </div>
+  </div>
+</div>

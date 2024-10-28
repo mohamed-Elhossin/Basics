@@ -10,7 +10,7 @@
         add the Verification code below
       </p>
     </div>
-    <div  class="form verification-form">
+    <div class="form verification-form">
       <form>
         <div class="form-group">
           <label for="verification">Verification Code</label>
@@ -28,17 +28,16 @@
               <span class="verify_span">-</span>
             </div>
             <div class="col form-group">
-              <input type="text" value="0" maxlength="1"  class="verify_input" />
+              <input type="text" value="0" maxlength="1" class="verify_input" />
             </div>
           </div>
         </div>
 
         <div class="verifyBtn d-grid mt-5">
-          <button class="btn">Verify</button>
-          <a class="mt-3" href="">  </a>
+          <button (click)="clicked()" class="btn">Verify</button>
+          <a class="mt-3" href=""> </a>
         </div>
         <div class="verifyBtn2 d-grid mt-5">
-
           <a class="mt-3" href="">Don't have an account? </a>
         </div>
       </form>

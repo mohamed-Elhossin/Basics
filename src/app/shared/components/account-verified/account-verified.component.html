@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="content">
+    <div class="logo">
+      <img class="img-fluid" src="img/Asset1.png" alt="" />
+    </div>
+    <div class="title">
+      <h1>Account verified</h1>
+      <span class="text-success mb-5">Thank you. Your account has been validated.</span>
+      <p>
+
+        Please pick your PIN to log in. If you have forgotten your PIN, it cannot be retrieved; you must contact
+        the administration to reset it.
+      </p>
+    </div>
+    <div class="form">
+      <form>
+        <div class="form-group">
+          <label for="password">Create Your PIN</label>
+          <input type="password" class="form-control" id="password" placeholder=" Your PIN" />
+          <span class="float-end">4 Digit </span>
+        </div>
+
+        <div class="loginBtn d-grid mt-5">
+          <button (click)="clicked()" class="btn">Activate Account</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
